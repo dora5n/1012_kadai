@@ -1,0 +1,85 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <div class="top">
+    <h1>よくある質問・お問い合わせ</h1>
+  </div>
+
+  <div class="box">
+    <div class="a">
+      <img src="img/1.png" alt="" />
+      <p>
+        スタディサプリ
+        ENGLISHのサービス（個人の方・団体会員の方）に関するお問い合わせ・ご意見については、こちらをご確認ください。
+      </p>
+    </div>
+
+    <div class="a">
+      <img src="img/2.png" alt="" />
+      <p>
+        スタディサプリ
+        ENGLISHのサービス（企業の方・学校法人の方）に関するお問い合わせ・ご意見については、こちらをご確認ください。
+      </p>
+    </div>
+
+    <div class="a">
+      <img src="img/3.png" alt="" />
+      <p>
+        スタディサプリ
+        ENGLISHのサービス（企業の方・学校法人の方）に関するお問い合わせ・ご意見については、こちらをご確認ください。
+      </p>
+    </div>
+
+    <div class="a">
+      <img src="img/4.png" alt="" />
+      <p>
+        スタディサプリ
+        ENGLISHのサービス（企業の方・学校法人の方）に関するお問い合わせ・ご意見については、こちらをご確認ください。
+      </p>
+    </div>
+  </div>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .top {
+      width: 100%;
+      background: blue;
+      padding: 60px;
+    }
+
+    h1 {
+      color: white;
+      font-weight: bold;
+      font-size: 40px;
+      text-align: left;
+      padding-left: 160px;
+    }
+
+    .box {
+      width: 1200px;
+      margin: 80px auto 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+    }
+
+    .a {
+      width: 100%;
+    }
+
+    .a img {
+      width: 100%;
+    }
+
+    .a p {
+      margin: 10px 0;
+      line-height: 1.7;
+    }
+  </style>
+</Layout>
