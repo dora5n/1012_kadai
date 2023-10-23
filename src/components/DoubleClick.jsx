@@ -4,11 +4,13 @@ const DoubleClick = () => {
   const [text, setText] = useState('よくある質問・お問い合わせ');
 
   const handleDoubleClick = () => {
-    setText('新しいテキスト');
+    setText((prevText) =>
+      prevText === 'よくある質問・お問い合わせ' ? '新しいテキスト' : 'よくある質問・お問い合わせ'
+    );
   };
 
   return (
-    <h1 onDoubleClick={handleDoubleClick}>
+    <h1 onDoubleClick={handleDoubleClick} style={{ marginLeft: '200px', color: 'white' }}>
       {text}
     </h1>
   );
