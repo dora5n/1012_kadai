@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import DoubleClick from "../components/DoubleClick";
+import BackgroundChanger from "../components/BackgroundChanger";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -9,7 +10,7 @@ import DoubleClick from "../components/DoubleClick";
     <DoubleClick client:load />
   </div>
 
-  <div class="arata_photo"></div>
+  <BackgroundChanger client:load />
 
   <div class="box">
     <div class="card_box">
