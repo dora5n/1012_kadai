@@ -10,7 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/react": "^3.0.3",
     "@astrojs/vercel": "^5.0.2",
-    "astro": "^3.2.4"
+    "astro": "^3.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "solid-js": "^1.8.3"
   }
 }
