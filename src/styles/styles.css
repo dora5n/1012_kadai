@@ -64,11 +64,10 @@ h2 {
   text-align: center;
 }
 
-/* グリッドレイアウトの設定 */
 ul {
   display: grid;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   gap: 20px;
   list-style-type: none;
   padding: 0;
@@ -76,6 +75,7 @@ ul {
 }
 
 li {
+  width: 1000px;
   display: flex;
   align-items: center;
   gap: 20px;
