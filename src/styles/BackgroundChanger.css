@@ -1,0 +1,45 @@
+.background-changer-container {
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slick-slider {
+  width: 100%;
+  height: 100%;
+  display: flex; /* 追加 */
+  justify-content: center; /* 追加 */
+}
+
+.background-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 100%;
+}
+
+.background-image {
+  width: 1200px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+button.slick-prev,
+button.slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+button.slick-prev {
+  left: 0;
+}
+
+button.slick-next {
+  right: 0;
+}
