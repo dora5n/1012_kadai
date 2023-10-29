@@ -101,8 +101,61 @@ body {
 }
 
 /* スライドショーの部分 */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
 .swiper-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* スマホサイズに対応 */
+@media (max-width: 768px) {
+  .top {
+    height: 120px;
+    padding: 20px;
+  }
+
+  .box {
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 0;
+  }
+
+  .card_box {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .card img {
+    height: 150px;
+  }
+
+  .information {
+    padding: 20px;
+  }
+
+  .information h2 {
+    font-size: 1.5rem;
+  }
+
+  .information li {
+    padding: 5px;
+  }
+
+  .information h3 {
+    flex-basis: 100px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .swiper {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
 }
