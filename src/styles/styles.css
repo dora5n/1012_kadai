@@ -99,3 +99,10 @@ body {
   place-items: center;
   justify-content: start;
 }
+
+/* スライドショーの部分 */
+.swiper-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
