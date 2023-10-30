@@ -6,9 +6,8 @@ body {
 .header {
   width: 100%;
   height: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   padding: 1rem;
   background: rgb(52, 52, 160);
 }
@@ -85,5 +84,29 @@ a:hover {
 
 /* リンクを囲む要素のスタイル */
 .link-container {
-  text-align: right;
+  display: grid;
+  justify-content: end;
+}
+
+/* メディアクエリでスマホ対応 */
+@media (max-width: 768px) {
+  .header {
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  /* テキストセクションのスタイル */
+  .text-section {
+    padding: 2rem;
+    margin-top: 20px;
+  }
+
+  /* リンクを囲む要素のスタイル */
+  .link-container {
+    display: grid;
+    justify-content: center;
+  }
 }
