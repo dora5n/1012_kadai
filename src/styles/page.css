@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* ヘッダーのスタイル */
+.header {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgb(52, 52, 160);
+}
+
+h1 {
+  color: white;
+  max-width: 1200px;
+  text-align: center;
+  width: 100%;
+}
+
+/* テキストセクションのスタイル */
+.text-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem;
+  background: bisque;
+  margin-top: 50px;
+}
+
+/* 各テキストのスタイル */
+.text-1 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.text-2 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.text-3 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.text-4 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+.text-5 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.text-6 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.text-7 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* リンクのスタイル */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 50px;
+  border: 2px solid #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* リンクを囲む要素のスタイル */
+.link-container {
+  text-align: right;
+}
